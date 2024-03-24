@@ -1,17 +1,13 @@
 <p align="left">
-<a href="https://github.com/NicolasMeseguer/nicolasmeseguer.github.io/graphs/contributors"><img src="https://img.shields.io/badge/contributors-1-brightgreen" alt="Contributors"></a>
-<a href="https://github.com/NicolasMeseguer/nicolasmeseguer.github.io/releases"><img src="https://img.shields.io/badge/version-alpha-8A2BE2" alt="Version Status"></a>
+<a href="https://github.com/minseogkim/minseogkim.github.io/graphs/contributors"><img src="https://img.shields.io/badge/contributors-1-brightgreen" alt="Contributors"></a>
+<a href="https://github.com/minseogkim/minseogkim.github.io/releases"><img src="https://img.shields.io/badge/version-alpha-8A2BE2" alt="Version Status"></a>
 <a href="https://github.com/Mowatave/amadeus"><img src="https://img.shields.io/badge/license-CC-blue" alt="License"></a>
 </p>
 
 Academic Portfolio
 =====================================
 
-You can find the LIVE Website [here](https://nicolasmeseguer.github.io).
-
-This template has been made from scratch taking in consideration some details from Beautiful Jekyll templates.
-
-Reach me @ [n.mesegueriborra@um.es](mailto:n.mesegueriborra@um.es).
+Forked from NicolasMeseguer/nicolasmeseguer.github.io.
 
 Language
 --------
