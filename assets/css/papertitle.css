@@ -2,4 +2,5 @@
     color: crimson; /* Set the color of the title */
     font-family: Verdana, sans-serif; /* Set the font family */
     font-size: 30px; /* Set the font size */
+    font-weight:bold; /* Set the font weight*/
 }
