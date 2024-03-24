@@ -33,11 +33,6 @@ a {
 }
 
 /* Add from Minseog*/
-.papertitle {
-    color: navy; /* Set the color of the title */
-    font-family: Arial, sans-serif; /* Set the font family */
-    font-size: 30px; /* Set the font size */
-}
 
 li > .active {
 	font-weight: 500;
