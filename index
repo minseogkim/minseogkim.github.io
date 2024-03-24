@@ -1,0 +1,1023 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+
+		<!-- Meta tags -->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+		<meta name="description" content="Nicolas Meseguer's website, biography, education, previous experience and published papers."/>
+		<meta name="keywords" content="nicolasmeseguer, NicolasMeseguer, Nicolas Meseguer, nicolas meseguer youtube, nicolas meseguer github, nicolas meseguer murcia, nicolas meseguer cv, nicolas meseguer portfolio"/>
+		
+		<meta name="author" content="Nicolas Meseguer" />
+		<meta name="copyright" content="Work protected by copyright; no distribution without permission." />
+		
+		<!-- Title + Icon -->
+		<title>Nicolas Meseguer</title>
+		<link rel="icon" type="image/x-icon" href="assets/img/NicolasMeseguer.ico">
+
+		<!-- Improve SEO -->
+		<meta name="robots" content="index,follow" />
+
+		<!-- Styles -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.1/css/all.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+		<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+		<link rel="stylesheet" href="assets/css/main.css">
+
+	</head>
+
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-LS62H88490"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-LS62H88490');
+	</script>
+
+	<body>
+
+		<!-- Bottom rounded button -->
+		<div class="options-button" id="options-toggler"><i class="fa-light fa-arrows-repeat"></i></div>
+		<div class="options-button" id="theme"><i class="fa-duotone fa-lightbulb"></i></div>
+		<div class="options-button" id="lan"><img class="lang-flag" src="/assets/img/en_flag.webp" alt="Flag indicating the english language is selected"></div>
+
+
+		<!-- Navbar  -->
+		<nav id="top-nav" class="navbar navbar-expand-md navbar-light bg-light flex-md-nowrap flex-wrap">
+			<div class="container justify-content-center">
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsingNavbar3">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="navbar-collapse collapse flex-grow-1 justify-content-center" id="collapsingNavbar3">
+					<ul class="navbar-nav mx-auto language" id="navbarList">
+						<li class="nav-item">
+							<a class="nav-link active" id="aboutme" href="#" 
+								data-es="Sobre Mi" 
+								data-en="About Me">
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="education" href="#" 
+								data-es="Educación" 
+								data-en="Education">
+						</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="publications" href="#" 
+								data-es="Publicaciones" 
+								data-en="Publications">
+						</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link d-none" id="tutorials" href="#" 
+								data-es="Tutoriales" 
+								data-en="Tutorials">
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="academic" href="#" 
+								data-es="Enseñanza" 
+								data-en="Academic">
+							</a>
+						</li>
+						<!-- <li class="nav-item">
+							<a class="nav-link" id="particular" href="#" 
+								data-es="Clases Particulares" 
+								data-en="Private Lessons">
+							</a>
+						</li> -->
+						<li class="nav-item">
+							<a class="nav-link" id="mowatave" href="https://mowatave.com" target="_blank">Mowatave</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link d-none" id="projects" href="#" 
+								data-es="Proyectos" 
+								data-en="Side Projects">
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link d-none" id="conferences" href="#" 
+								data-es="Conferencias" 
+								data-en="Conferences">
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link d-none" id="experience" href="#" 
+								data-es="Experiencia" 
+								data-en="Experience">
+							</a>
+						</li>
+						<!-- TEMPLATE
+						<li class="nav-item">
+							<a class="nav-link" id="name" href="#" data-es="name-es" data-en="name-en"></a>
+						</li>
+						-->
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div class="container" id="main-content">
+			<div class="row content">
+				
+				<!-- Nicolas Meseguer profile and contact info -->
+				<div id="leftPanel" class="col-md-3 language">
+					<div class="row mb-3">
+						<div class="col">
+							<img src="assets/img/NicolasMeseguer.webp" class="rounded me-auto d-block img-fluid profilepicture" alt="Nicolas Meseguer profile picture">
+						</div>
+					</div>
+
+					<h3 class="mb-2">Nicolás Meseguer</h3>
+
+					<div class="d-none" id="contadorVisitas"></div>
+
+					<p class="mb-4">
+						<span class="t-secondary" data-es="Estudiante de doctorado en Arquitectura de Computadores en la Universidad de Murcia y CTO en " 
+						data-en="Ph.D. Computer Architecture Student at University of Murcia and CTO at "></span> <a href="https://mowatave.com" class="link-dark" target="_blank">Mowatave</a>.
+					</p>
+					
+					<div class="row mb-2">
+						<div class="col-1">
+							<i class="fal fa-map-marker-alt" aria-hidden="true"></i>
+						</div>
+
+						<div class="col-10">
+							<span 
+								data-es="Área Metropolitana" 
+								data-en="Greater Murcia Metropolitan Area">
+							</span> 
+							<br/>
+							Murcia, 
+							<span 
+								data-es="España" 
+								data-en="Spain">
+							</span>
+						</div>
+					</div>
+
+					<div class="row mb-2">
+						<div class="col-1">
+							<i class="ai ai-cv" aria-hidden="true"></i>
+						</div>
+
+						<div class="col-10">
+							<a href="assets/documents/NicolasMeseguerCV.pdf" class="link-dark" target="_blank" data-es="CV [Actualizado 03/2024]" data-en="CV [Updated 03/2024]"></a>
+						</div>
+					</div>
+
+					<div class="row mb-2">
+						<div class="col-1">
+							<i class="fa-regular fa-envelope" aria-hidden="true"></i>
+						</div>
+
+						<div class="col-10">
+							<a href="mailto:n.mesegueriborra@um.es" class="link-dark">n.mesegueriborra@um.es</a>
+						</div>
+					</div>
+
+					<div class="row mb-2">
+						<div class="col-1">
+							<i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+						</div>
+
+						<div class="col-10">
+							<a href="https://www.linkedin.com/in/nicolasmeseguer/" class="link-dark" target="_blank">LinkedIn</a>
+						</div>
+					</div>
+
+					<div class="row mb-2">
+						<div class="col-1">
+							<i class="fa-brands fa-twitter" aria-hidden="true"></i>
+						</div>
+
+						<div class="col-10">
+							<a href="https://twitter.com/NicolasMeseguer" class="link-dark" target="_blank">Twitter</a>
+						</div>
+					</div>
+
+					<div class="row mb-2">
+						<div class="col-1">
+							<i class="fab fa-github" aria-hidden="true"></i>
+						</div>
+
+						<div class="col-10">
+							<a href="https://github.com/NicolasMeseguer" class="link-dark" target="_blank">GitHub</a>
+						</div>
+					</div>
+
+					<div class="row mb-2">
+						<div class="col-1">
+							<i class="fab fa-gitlab" aria-hidden="true"></i>
+						</div>
+
+						<div class="col-10">
+							<a href="https://gitlab.com/NicolasMeseguer" class="link-dark" target="_blank">GitLab</a>
+						</div>
+					</div>
+
+					<div class="row mb-2">
+						<div class="col-1">
+							<i class="fa-solid fa-plus"></i>
+						</div>
+
+						<div class="col-10">
+							<a href="https://fseneca.es/tfs/fpi/ficha/8362" class="link-dark" target="_blank"><img class="fseneca" src="/assets/img/fseneca-color.svg" alt="Fundación Séneca"></a>
+						</div>
+					</div>
+				</div>
+
+				<!-- About Me -->
+				<div class="col-md-8 offset-md-1 mb-5 active" id="aboutmeContent">
+					<div class="container">
+						<div class="row language">
+							<p class="mt-2 justify" 
+								data-es="Nace en Murcia, España en 1997. En 2021 obtiene el grado de ingeniería informática por la Universidad Católica San Antonio de Murcia con mención honorífica a la excelencia académica. A continuación cursa el máster en la Universidad de Murcia obteniendo el título de máster en nuevas tecnologías en informática en el año 2022. Además, obtuvo una beca de iniciación a la investigación de la Universidad Católica San Antonio de Murcia con duración de 6 meses en el año 2021. En el año 2022 obtiene una beca de la Fundación Séneca para realizar la tesis doctoral en la Universidad de Murcia, donde participa en actividades docentes a partir del año 2023, ese mismo año funda Mowatave, una empresa de desarrollo software, desempeñando el rol de CTO y liderando el equipo técnico. Posee comunicaciones en congresos nacionales. Domina las lenguas español e inglés." 
+								data-en="Born in Murcia, Spain in 1997. In 2021 he obtained a degree in computer engineering from the Universidad Católica San Antonio de Murcia with honorable mention for academic excellence. He then studied a master's degree at the University of Murcia obtaining a master's degree in new technologies in computer science in 2022. In addition, he received a research initiation scholarship from the Universidad Católica San Antonio de Murcia for a period of six months in in 2021. In 2022 he obtained a scholarship from the Fundación Séneca to undertake a doctoral thesis at the University of Murcia, where he participates in teaching activities from 2023. That same year he founded Mowatave, a software development company, serving as the CTO and leading the technical team. He has presented at national conferences and is proficient in both Spanish and English.">
+							</p>
+							
+							<h4 id="researchinterestsH4" class="mt-2" 
+								data-es="Áreas de Investigación" 
+								data-en="Research Interests">
+							</h4>
+
+							<p class="mt-1"
+								data-es="Arquitectura de computadores, redes de interconexión y aceleradores de aprendizaje profundo (aceleradores a nivel de hardware), sin embargo mis estudios de doctorado se centran en arquitecturas de GPUs, concretamente en los nuevos componentes de las futuras generaciones de tarjetas gráficas de NVIDIA y AMD. Para ello actualmente estoy utilizando MGPUSim, un simulador a nivel de eventos para GPUs."
+								data-en="Computer architecture, interconnection networks and deep learning accelerators, however my PhD studies are focused on GPU architectures, specifically on the new components of the future generations of NVIDIA and AMD graphics cards. To this end I am currently using MGPUSim, a software event-based GPU simulator.">
+							</p>
+
+							<h4 id="honors-and-awards" class="mt-2" data-es="Premios y Distinciones" data-en="Honors and Awards"></h4>
+
+							<ul class="mt-1">
+
+								<li class="abme-honors-bullet">
+									<strong>🥉 Telefónica Hack4Good 2024</strong>, <span data-es="con una plataforma para telemedicina integral con varios actores" data-en="with a comprehensive telemedicine platform with several stakeholders"></span> 
+									[<a href="https://www.ucam.edu/noticias/inteligencia-artificial-aplicada-salud-propuesta-ganadora-del-hackforgood-celebrado-ucam" class="link-dark" target="_blank">1</a>] 
+									- <span data-es="Mar, 2024" data-en="Mar, 2024"></span>
+								</li>
+
+								<li class="abme-honors-bullet mt-2">
+									<strong>Programa Séneca 2022</strong>, <span data-es="Formación de Personal Investigador en Universidades y Organismos Públicos de Investigación de la Región de Murcia" data-en="research contract at the University of Murcia"></span> 
+									[<a href="https://fseneca.es/tfs/fpi/ficha/8362" class="link-dark" target="_blank">1</a>]
+									[<a href="https://fseneca.es/web/convocatoria/642" class="link-dark" target="_blank">2</a>] 
+									- <span data-es="Dic, 2022" data-en="Dec, 2022"></span>
+								</li>
+
+								<li class="abme-honors-bullet mt-2">
+									<strong>🥈 Mercedes-Benz Talent Highway</strong>, <span data-es="con un modelo analítico de mercado predictivo" data-en="with a predictive analytical market model"></span> 
+									[<a href="./assets/documents/MercedesBenz2022NicolasMeseguer.pdf" class="link-dark" target="_blank">1</a>] 
+									[<a href="./assets/documents/imgs/NicolasMeseguerMercedes-Benz.jpg" class="link-dark" target="_blank">2</a>] 
+									- Nov, 2022
+								</li>
+
+								<li class="abme-honors-bullet mt-2">
+									<strong><span data-es="Beca Universitaria" data-en="University scholarship"></span></strong> <span data-es="para el máster" data-en="for the master's degree"></span> (M.S.)
+									[<a href="./assets/documents/NicolasMeseguerScholarship.pdf" class="link-dark" target="_blank">1</a>] 
+									- Nov, 2022
+								</li>
+
+								<li class="abme-honors-bullet mt-2">
+									<strong>🥇 Telefónica Hack4Good 2022</strong>, <span data-es="con una aplicación contra el desperdicio cero de alimentos" data-en="with an application against zero food waste"></span>
+									[<a href="./assets/documents/HackForGood2022NicolasMeseguer.pdf" class="link-dark" target="_blank">1</a>]
+									[<a href="https://www.ucam.edu/noticias/investigacion-salud-deporte-protagonistas-actividades-ucam" class="link-dark" target="_blank">2</a>]
+									[<a href="https://www.linkedin.com/posts/universidad-catolica-san-antonio-de-murcia_secyt22-investigaciaejn-salud-activity-6989572524854382592-zMr4" class="link-dark" target="_blank">3</a>] 
+									- Oct, 2022
+								</li>
+
+								<li class="abme-honors-bullet mt-2">
+									<strong><span data-es="Premio Extraordinario" data-en="Extraordinary Award"></span></strong>, <span data-es="por el mejor Expediente Académico en Ingeniería Informática" data-en="for the Best Computer Engineering Academic Record"></span> (B.S.)
+									[<a href="./assets/documents/imgs/NicolasMeseguerAward.jpg" class="link-dark" target="_blank">1</a>] 
+									- Jun, 2022
+								</li>
+
+								<li class="abme-honors-bullet mt-2">
+									<strong><span data-es="Beca de Iniciación a la Investigación" data-en="Research Initiation Scholarship"></span></strong> <span data-es="para jóvenes investigadores prometedores" data-en="for promising young researchers"></span>
+									[<a href="./assets/documents/NicolasMeseguerResearchGrant.pdf" class="link-dark" target="_blank">1</a>] 
+									- Feb, 2021
+								</li>
+
+								<li class="abme-honors-bullet mt-2">
+									<strong><span data-es="Beca Erasmus+" data-en="Erasmus+ Scholarship"></span></strong>, <span data-es="para unas prácticas europeas" data-en="for a european internship"></span>
+									[<a href="./assets/documents/imgs/NicolasMeseguerGermany.png" class="link-dark" target="_blank">1</a>] 
+									- Mar, 2018
+								</li>
+							</ul>
+
+							<h4 id="hobbiesH4" class="mt-2">Hobbies</h4>
+
+							<div class="container">
+								<div class="row mt-3">
+									<div class="thumbnail col-md-3">
+										<img class="rounded mx-auto d-block img-fluid" src="/assets/img/NicolasMeseguerProgramming.webp" alt="Programming and Math">
+									</div>
+									<div class="col-md-9" id="hobbie1">
+										<b 
+											data-es="Programación + Mates" 
+											data-en="Programming + Math">
+										</b>
+
+										<br />
+										<p class="mt-2 d-inline justify"
+											data-es="Desde pequeño sentí curiosidad por saber cómo se creaban los escenarios (visualmente) de los diferentes videojuegos; cómo los motores gráficos conseguían lo que yo consideraba en aquella época unos 'gráficos increíbles'. Motivado por esto y por mi pasión por la programación, he incluido los ejercicios de"
+											data-en="Since I was a child I was curious to know how the scenarios were created (visually) in different videogames; how the graphics engines managed to achieve, what I considered at that time to be, 'unbelievable graphics'. Motivated by this and by my passion for programming, I've included the exercises in">
+										</p>
+
+										<a href="https://projecteuler.net/" class="link-dark" target="_blank">Project Euler</a> <span data-es="en mi" data-en="into my"></span> <a href="https://github.com/NicolasMeseguer/Toolbox" class="link-dark" target="_blank"><span data-es="propio repositorio de código abierto" data-en="own open-source repository"></span></a>.
+
+									</div>
+								</div>
+
+								<div class="row mt-5">
+									<div class="thumbnail col-md-3">
+										<img class="rounded mx-auto d-block img-fluid" src="/assets/img/NicolasMeseguerTailandia.webp" alt="Travelling">
+									</div>
+									<div class="col-md-9" id="hobbie2">
+										<b 
+											data-es="Viajar" 
+											data-en="Travelling">
+										</b>
+
+										<br />
+										<p class="mt-2 d-inline justify"
+											data-es="Decidí viajar a Alemania para hacer unas prácticas el mismo año que terminé el grado superior. Desde entonces, me he propuesto ir a un lugar nuevo al menos una vez al año. He recorrido Italia, conducido en moto a través de Tailandia (sin embargo, la pandemia me lo ha puesto bastante dificil estos últimos años)."
+											data-en="I opted to move to Germany for an internship the same year I finished my undergraduate degree (HNC). Since then, I've made it a goal to go to a new location at least once a year. I've been across Italy and Thailand since then (although the pandemic has hampered my progress quite a bit this last years).">
+										</p>
+
+									</div>
+								</div>
+								
+								<div class="row mt-5">
+									<div class="thumbnail col-md-3">
+										<img class="rounded mx-auto d-block img-fluid" src="/assets/img/NicolasMeseguerYouTube.webp" alt="Content Creator on YouTube">
+									</div>
+									<div class="col-md-9" id="hobbie3">
+										<b 
+											data-es="Filmaker (casi nunca)" 
+											data-en="Video Creator (rarely)">
+										</b>
+
+										<br />
+										<p class="mt-2 d-inline justify"
+											data-es="Me gusta compartir mis experiencias en el campo de la tecnología. Llevo viendo vídeos en internet desde que tengo uso de razón, así que en 2018 decidí crearme un canal de"
+											data-en="I enjoy sharing my experiences, particularly in the field of technology. I've been watching videos on the internet for as long as I can remember, so in 2018 I decided to start a">
+										</p>
+
+										<a href="https://www.youtube.com/c/NicolasMeseguer" class="link-dark" target="_blank">YouTube</a><span data-es="." data-en=""></span>
+
+										<span
+											data-es="Algunos vídeos tienen más de 150 mil visitas a día de hoy... ¿No es increíble? Si tienes suerte puedes encontrarme por"
+											data-en="channel. Some videos have already received over 150 thousand views as of today... Isn't it amazing? If lucky enough you can find me at">
+										</span>
+
+										<a href="https://www.twitch.tv/nicolasmeseguerr" class="link-dark" target="_blank">Twitch</a>
+										
+										</br>
+
+										<span class="lucida-console small">(<i class="fa-light fa-share-from-square"></i> <a href="https://www.youtube.com/@NicolasMeseguerArchive" class="link-dark" target="_blank">YouTube Archive)</a>.</span>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<!-- Education -->
+				<div class="col-md-8 offset-md-1 mb-5" id="educationContent">
+					<div class="container">
+						<div class="row mt-2 language">
+							<h2 
+								data-es="Doctorado en Arquitectura de Computadores"
+								data-en="Ph.D. in Computer Architecture"></h2>
+							<div class="trnsf-thin" 
+								data-es="(Universidad de Murcia, 2022-2026)" 
+								data-en="(University of Murcia, 2022-2026)"></div>
+
+							<p class="mt-1 justify"
+								data-es="
+								El diseño del sistema de memoria es un componente clave de cualquier arquitectura, y mucho más crucial en las arquitecturas heterogéneas, que están surgiendo como resultado de la ralentización de la Ley de Moore.
+
+								Aunque las jerarquías de memoria en las arquitecturas de propósito general se han explorado ampliamente a lo largo de los años, los aceleradores de dominio específico tienen restricciones que introducen variaciones en algunas características esenciales. Además, a medida que la capacidad de cálculo de estas arquitecturas heterogéneas crece, también lo hace la necesidad de poder recuperar datos con los que operar, lo que aumenta la presión sobre el diseño del sistema de memoria.
+
+								El objetivo general de este trabajo es sugerir enfoques para abordar dos preocupaciones trascendentales en el diseño del sistema de memoria de un procesador heterogéneo. Por un lado, organizaciones novedosas para las estructuras de memoria empleadas por los núcleos (considerando los aceleradores de deep learning en este caso), a través de las cuales se podrá responder a la exigencia de un ancho de banda cada vez mayor. Por otro lado, investigaremos alternativas a los conceptos actuales de memoria virtual para compartir de forma más eficiente el mismo espacio de memoria entre los núcleos de propósito general y los aceleradores.
+								"
+
+								data-en="
+								The design of the memory system is a key component of any computer architecture, and it is much more crucial in the heterogeneous architectures that are emerging as a result of Moore's Law slowing.
+
+								Although memory hierarchies in general-purpose architectures have been extensively explored over the years, domain-specific accelerators have restrictions that introduces variances in some essential features. Furthermore, as the computational capability of these heterogeneous architectures grows, so does the requirement to be able to retrieve data with which to operate, increasing the pressure on the design of the memory system.
+
+								The overarching goal of this work is to suggest approaches for addressing two transcendental concerns in the design of a heterogeneous processor's memory system. On the one hand, novel organizations for the memory structures employed by cores (considering deep learning accelerators in this case), through which it will be possible to respond to the requirement for ever-increasing bandwidth. On the other hand, we will investigate alternatives to present virtual memory concepts in order to more efficiently share the same memory space across general purpose cores and accelerators.
+								">
+								
+							</p>
+
+							<div class="trnsf-thin">
+								<span 
+									data-es="Tésis:"
+									data-en="Dissertation:">
+								</span>
+								<span class="trnsf-italic"
+									data-es="Por determinar (finales~2026)."
+									data-en="TBD (late~2026).">
+								</span>
+							</div>
+
+						</div>
+
+						<div class="row mt-3 language">
+							<h2 
+								data-es="Máster en Arquitecturas de Altas Prestaciones y Supercomputación"
+								data-en="M.S. in High Performance Architectures and Supercomputing"></h2>
+							<div class="trnsf-thin"
+								data-es="(Universidad de Murcia, 2021-2022) 9,24 - 60 ECTS"
+								data-en="(University of Murcia, 2021-2022) 9,24 - 60 ECTS">
+							</div>
+
+							<p class="mt-1 justify"
+								data-es="
+								Diseño de arquitecturas multinúcleo de alto rendimiento, incluyendo la microarquitectura de cada uno de los núcleos de procesamiento, las cachés y la red de interconexión.
+								Comprender los mecanismos a través de los cuales se puede lograr una comunicación eficiente entre los núcleos (el protocolo de coherencia de la caché).
+								Evaluar el impacto de las diferentes técnicas arquitectónicas en el rendimiento y el consumo de energía de las arquitecturas multinúcleo de alto rendimiento.
+								Estándares de programación paralela: paradigmas de memoria compartida (OpenMP) e interfaz de paso de mensajes (MPI) + paradigmas híbridos (como MPI+OpenMP y OpenMP+CUDA).
+								Nociones de programación paralela, algoritmos y bibliotecas matriciales eficientes en sistemas de alto rendimiento (BLAS, Intel MKL, cuBLAS, ScaLAPACK).
+								Administración de sistemas de alto rendimiento (almacenamiento RAID, reglas de cortafuegos, protocolos de red, gestor de módulos, sistema de colas, arranque en red).
+								"
+
+								data-en="
+								Design high-performance multi-core architectures, including the microarchitecture of each of the processing cores, the caches and the interconnection network.
+								Understand the mechanisms through which efficient communication between cores can be achieved (the cache coherence protocol).
+								Assess the impact of different architectural techniques on the performance and power consumption of high-performance multi-core architectures.
+								Parallel programming standards: shared memory paradigms (OpenMP) and message passing interface (MPI) + hybrid paradigms (such as MPI+OpenMP and OpenMP+CUDA).
+								Notions of parallel programming and efficient matrix algorithms and libraries in high-performance systems (BLAS, Intel MKL, cuBLAS, ScaLAPACK).
+								High performance system administration (RAID storage, firewall rules, network protocols, module manager, queuing system, network boot).
+								">
+								
+							</p>
+
+							<div class="trnsf-thin">
+								<span
+									data-es="TFM:"
+									data-en="Thesis:">
+								</span>
+								<span class="trnsf-italic">
+									<a href="./assets/documents/dissertations/NICOLASMESEGUER_CPU-PCGCN_efficient_processing_of_graph_convolutional_networks_on_CPU_architectures.pdf" class="link-dark" target="_blank"
+									data-es="CPU-PCGCN, procesamiento eficiente de redes convolucionales grafos en arquitecturas CPU."
+									data-en="CPU-PCGCN, efficient processing of graph convolutional networks on CPU architectures.">
+								</a>
+								</span>
+							</div>
+							<div class="trnsf-thin">
+								<span
+									data-es="[encuentra el repositorio"
+									data-en="[find the repository">
+								</span>
+								<a href="https://github.com/NicolasMeseguer/pcgcn" class="link-dark" target="_blank" 
+									data-es="aquí]"
+									data-en="here]">
+								</a>
+							</div>
+
+						</div>
+
+						<div class="row mt-3 language">
+							<h2 
+								data-es="Alumno Interno, Machine Learning y Deep Learning"
+								data-en="Intern Student, Machine Learning and Deep Learning">
+							</h2>
+							<div class="trnsf-thin" 
+								data-es="(Univerisdad Católica de Murcia, 2019-2020) - 12 ECTS" 
+								data-en="(Catholic University of Murcia, 2019-2020) - 12 ECTS">
+							</div>
+
+							<p class="mt-1 justify" 
+								data-es="
+								Introducción a Machine Learning (ML) y a las nociones que sustentan el cálculo de diferentes modelos de Deep Neural Networks (DNNs), como MLPs, CNNs o RNNs.
+								Durante mi estancia de prácticas, desarrollé una red neuronal completamente conectada (FC) y una convolucional (CNN) en C, mejorando la eficiencia de la caché (memoria dinámica, punteros, registros de memoria) y las operaciones matriciales para acelerar el cálculo. 
+								Esta aplicación se distribuye abiertamente a la comunidad científica; es totalmente modular y fácil de usar.
+								"
+
+								data-en="
+								Introduction to Machine Learning (ML) and the notions underpinning the computation of different Deep Neural Networks (DNNs) models, such as MLPs, CNNs, or RNNs.
+								During my time as an intern student, I developed a fully connected (FC) and a convolutional neural network (CNN) in C, improving cache efficency (dynamic memory, pointers, memory registers) and matrix operations to speed up the calculation. 
+								This application is openly distributed to the scientific commmunity; it is totally modular and user-friendly.
+								">
+							</p>
+
+							<div class="trnsf-thin">
+								<span
+									data-es="[encuentra la aplicación"
+									data-en="[find the application">
+								</span>
+								<a href="https://github.com/NicolasMeseguer/DNN" class="link-dark" target="_blank" 
+									data-es="aquí]"
+									data-en="here]">
+								</a>
+							</div>
+
+						</div>
+
+						<div class="row mt-3 language">
+							<h2 
+								data-es="(Honorífico) Grado en Ingeniería Informática"
+								data-en="(Hons) B.S. in Computer Engineering">
+							</h2>
+							<div class="trnsf-thin" 
+								data-es="(Univerisdad Católica de Murcia, 2018-2021) 9,3 - 240 ECTS" 
+								data-en="(Catholic University of Murcia, 2018-2021) 9,3 - 240 ECTS">
+							</div>
+
+							<p class="mt-1 justify"
+								data-es="
+								Estructuras de datos (pilas, colas, listas, grafos), algoritmos (ordenación, hashing, backtracking), 
+								bases de datos (relacionales y no relacionales), programación paralela (OMP y CUDA), 
+								arquitectura de ordenadores (MIPS, modelo Von Neumann, segmentación, multiciclo y monociclo), 
+								cálculo y álgebra lineal, redes, sistemas operativos y seguridad informática (curso CISCO), 
+								metodologías ágiles e ingeniería del software, programación visual avanzada, sistemas inteligentes (Python), 
+								apps móviles nativas y apps web progresivas, etc."
+
+								data-en="
+								Data structures (stacks, queues, lists, graphs), algorithms (sorting, hashing, backtracking), 
+								databases (relational and no relational), parallel programming (OMP and CUDA), 
+								computer architecture (MIPS, Von Neumann model, segmentation, multicycle and monocycle), 
+								calculus and linear algebra, networks, operating systems and computer security (CISCO course), 
+								agile methodologies and software engineering, advanced visual programming, smart systems (Python), 
+								native mobile apps and progressive web apps, etc.">
+								
+							</p>
+
+							<div class="trnsf-thin">
+								<span
+									data-es="TFG:"
+									data-en="Thesis:">
+								</span>
+								<span class="trnsf-italic">
+									<a href="./assets/documents/dissertations/NICOLASMESEGUER_Implementation_and_evaluation_of_the_DLRM_model_in_an_ASIC_accelerator_simulated_by_STONNE.pdf" class="link-dark" target="_blank"
+									data-es="Implementación y evaluación del modelo DLRM en un acelerador ASIC simulado por STONNE"
+									data-en="Implementation and evaluation of the DLRM model in an ASIC accelerator simulated by STONNE.">
+								</a>
+								</span>
+							</div>
+
+						</div>
+
+						<div class="row mt-3 language">
+							<h2 
+								data-es="Grado Superior en Desarrollo de Aplicaciones Web"
+								data-en="HNC Web App Developer">
+							</h2>
+							<div class="trnsf-thin">(IES José Planes, 2016-2018) 8,8 - 120 ECTS </div>
+
+							<p class="mt-1 justify"
+
+								data-es="Desarrollar, implementar y mantener aplicaciones web (enfoque MVC), 
+								independientemente del modelo utilizado y utilizando tecnologías específicas (Laravel, Symfony, Java, React.js o Node.js), 
+								garantizando el acceso seguro a los datos (MySQL, XML o Ajax) y cumpliendo los criterios de accesibilidad, 
+								usabilidad y calidad (Doctrine2, Ruby, SASS, Compass) exigidos por los estándares establecidos."
+
+								data-en="Developing, implementing and maintaining web applications (MVC approach), 
+								irrespective of the model used and using specific technologies (Laravel, Symfony, Java, React.js or Node.js), 
+								guaranteeing secure access to data (MySQL, XML or Ajax) and complying with the accessibility, 
+								usability and quality criteria (Doctrine2, Ruby, SASS, Compass) required by established standards.">
+							</p>
+
+						</div>
+					</div>
+				</div>
+
+
+				<!-- Publications -->
+				<div class="col-md-8 offset-md-1 mb-5" id="publicationsContent">
+					<div class="container">
+
+						<!-- Each new year -->
+						<div class="row mt-3">
+							<h2 class="pub-year-h2">2023</h2>
+
+							<!-- Each new publication inside the given year -->
+							<div class="pub-block">
+								<!-- Title -->
+								<div class="lucida-console h5">CPU-PCGCN: Efficient Processing of Convolutional Graph Networks on CPU Architectures</div>
+								<!-- Authors -->
+								<div class="pub-authors mt-1"><span class="pub-author">Nicolás Meseguer-Iborra</span>, José L. Abellán, Manuel E. Acacio</div>
+								<!-- Place -->
+								<div class="pub-congress">19th International Summer School on Advanced Computer Architecture and Compilation for High-performance Embedded Systems, Fiuggi (Italy), July 2023.</div>
+								<!-- Links -->
+								<div class="mt-1">
+									<span> <i class="far fa-file-pdf"></i> <a href="/assets/documents/publications/2023CPU-PCGCN-Poster.pdf" target="_blank" class="link-dark ">Poster</a> </span>
+									<span class="pub-force-margin-left"> <i class="far fa-file-pdf"></i> <a href="/assets/documents/publications/2023CPU-PCGCN-Abstract.pdf" target="_blank" class="link-dark ">Abstract</a> </span>
+									<!-- This <a> with id citation, will automatically copy to the clipboard the bibtex citation -->
+									<span class="pub-force-margin-left"> <i class="fas fa-quote-left"></i> <a href="#" id="citation" class="link-dark">BibTeX</a> </span>
+								</div>
+								<!-- Citation -->
+								<div class="d-none">
+@article{2023cpupcgcn,
+	author = {Meseguer-Iborra, Nicolas and Abellán, José L. and Acacio, Manuel E.},
+	year = {2023},
+	month = {July},
+	title = {CPU-PCGCN: Efficient Processing of Convolutional Graph Networks on CPU Architectures},
+	journal = {Advanced Computer Architecture and Compilation for High-performance Embedded Systems},
+	volume = {19},
+	pages = {5--8},
+	isbn = {978-90-7842-704-9}
+}</div>
+							</div>
+						</div>
+
+						<div class="row mt-3">
+							<h2 class="pub-year-h2">2022</h2>
+
+							<div class="pub-block">
+								<div class="lucida-console h5">CPU-PCGCN: Procesamiento Eficiente de Redes Convolucionales de Grafos en Arquitecturas CPU</div>
+								<div class="pub-authors mt-1"><span class="pub-author">Nicolás Meseguer-Iborra</span>, Francisco Muñoz-Martínez, José L. Abellán, Manuel E. Acacio</div>
+								<div class="pub-congress">XXXII Jornadas de Paralelismo, Alicante (Spain), September 2022.</div>
+								<div class="mt-1">
+									<span> <i class="far fa-file-pdf"></i> <a href="/assets/documents/publications/2022CPU-PCGCN.pdf" target="_blank" class="link-dark ">PDF</a> </span>
+									<span class="pub-force-margin-left"> <i class="fas fa-quote-left"></i> <a href="#" id="citation" class="link-dark">BibTeX</a> </span>
+								</div>
+								<div class="d-none">
+@article{2022cpupcgcn,
+	author = {Meseguer-Iborra, Nicolas and Muñoz-Martínez, Francisco and Abellán, José L. and Acacio, Manuel E.},
+	year = {2022},
+	month = {June},
+	title = {CPU-PCGCN: Procesamiento Eficiente de Redes Convolucionales de Grafos en Arquitecturas CPU},
+	journal = {Avances en Arquitectura y Tecnología de Computadores},
+	volume = {32},
+	pages = {445--453},
+	isbn = {978-84-1302-185-0}
+}</div>
+							</div>
+						</div>
+
+						<div class="row mt-3">
+							<h2 class="pub-year-h2">2021</h2>
+
+							<div class="pub-block">
+								<div class="lucida-console h5">Evaluación de un Sistema de Recomendación en un Acelerador Híbrido</div>
+								<div class="pub-authors mt-1"><span class="pub-author">Nicolás Meseguer-Iborra</span>, Francisco Muñoz-Martínez, Manuel E. Acacio, José L. Abellán</div>
+								<div class="pub-congress">XXXI Jornadas de Paralelismo, Málaga (Spain), September 2021.</div>
+								<div class="mt-1">
+									<span> <i class="far fa-file-pdf"></i> <a href="/assets/documents/publications/2021DLRM.pdf" target="_blank" class="link-dark">PDF</a> </span>
+									<span class="pub-force-margin-left"> <i class="fas fa-quote-left"></i> <a href="#" id="citation" class="link-dark">BibTeX</a> </span>
+								</div>
+								<div class="d-none">
+@article{2021dlrm,
+	author = {Meseguer-Iborra, Nicolas and Muñoz-Martínez, Francisco and Acacio, Manuel E. and Abellán, José L.},
+	year = {2021},
+	month = {June},
+	title = {Evaluación de un Sistema de Recomendación en un Acelerador Híbrido},
+	journal = {Avances en Arquitectura y Tecnología de Computadores},
+	volume = {31},
+	pages = {107--115},
+	isbn = {978-84-09-32487-3}
+}</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Blog -->
+				<!-- Not being displayed as of now -->
+				<div class="col-md-8 offset-md-1 mb-5" id="tutorialsContent">
+					<div class="container">
+
+						<div class="clickable mt-4 language">
+							<div class="d-none">https://nicolasmeseguer.notion.site/StreaMemory-Benchmark-35739f7f69404274a1d287f6827ef203</div>
+							<div class="h5">⛲ StreaMemory Benchmark</div>
+							<div class="blog-info mt-2">
+								<div class="d-inline">
+									<i class="fa-light fa-hourglass-clock" aria-hidden="true"></i> 25 min
+								</div>
+
+								<div class="float-end d-inline">
+									<i class="fa-light fa-calendar" aria-hidden="true"></i> 11 feb. 2022
+								</div>
+							</div>
+
+							<div class="blog-short mt-2" 
+								data-es="Explicación del Stream + Memory benchmark en MGPUSim y los archivos que he tenido que modificar para lograrlo."
+								data-en="Explanation of the Stream + Memory benchmark in MGPUSim and the files I had to modify to achieve it.">
+							</div>
+
+							<div class="blog-tags mt-1">
+								<span class="tag t-sky">#benchmark</span> <span class="tag t-sky">#mgpusim</span> <span class="tag t-sky">#akita</span>
+							</div>
+						</div>
+
+						<div class="clickable mt-4 language">
+							<div class="d-none">https://nicolasmeseguer.notion.site/Elementwise-2D-546f8fe9a8a24852a234bdc28b00cd15</div>
+							<div class="h5">🧊 Elementwise 2D Tensor</div>
+							<div class="blog-info mt-2">
+								<div class="d-inline">
+									<i class="fa-light fa-hourglass-clock" aria-hidden="true"></i> 10 min
+								</div>
+
+								<div class="float-end d-inline">
+									<i class="fa-light fa-calendar" aria-hidden="true"></i> 12 dec. 2022
+								</div>
+							</div>
+
+							<div class="blog-short mt-2" 
+								data-es="Explicación de element-wise para un tensor doble (2D) y un caso práctico de porqué no usar tamaños aleatorios para el tamaño de la matriz."
+								data-en="Explanation of element-wise for a double (2D) tensor and a case study of why not to use random sizes for matrix size.">
+							</div>
+
+							<div class="blog-tags mt-1">
+								<span class="tag t-sky">#mgpusim</span> <span class="tag t-sky">#akita</span>
+							</div>
+						</div>
+
+						<div class="clickable mt-4 language">
+							<div class="d-none">https://nicolasmeseguer.notion.site/Tracing-LDS-Unit-69210a9d8fe44b4a997f8391aa508621</div>
+							<div class="h5">🛤️ Tracing LDS Unit</div>
+							<div class="blog-info mt-2">
+								<div class="d-inline">
+									<i class="fa-light fa-hourglass-clock" aria-hidden="true"></i> 20 min
+								</div>
+
+								<div class="float-end d-inline">
+									<i class="fa-light fa-calendar" aria-hidden="true"></i> 30 nov. 2022
+								</div>
+							</div>
+
+							<div class="blog-short mt-2"
+								data-es="¿Alguna vez has querido adjuntar un tracer a un componente específico dentro de MGPUSim? Incluso si ese 'componente' no es un componente como tal, sino un subcomponente de un componente. Este tutorial te será útil."
+								data-en="Have you ever wanted to attach a tracer to a specific component inside MGPUSim? Even if that 'component' is not a component itself but a subcomponent of a component. This tutorial will be helpful.">
+							</div>
+
+							<div class="blog-tags mt-1">
+								<span class="tag t-sky">#mgpusim</span> <span class="tag t-sky">#akita</span> <span class="tag t-sky">#tracing</span>
+							</div>
+						</div>
+
+						<div class="clickable mt-4 language">
+							<div class="d-none">https://nicolasmeseguer.notion.site/DAISEN-Tutorial-9d041575a9b0489099086152fd9a927e</div>
+							<div class="h5">📊 DAISEN Tutorial</div>
+							<div class="blog-info mt-2">
+								<div class="d-inline">
+									<i class="fa-light fa-hourglass-clock" aria-hidden="true"></i> 15 min
+								</div>
+
+								<div class="float-end d-inline">
+									<i class="fa-light fa-calendar" aria-hidden="true"></i> 15 nov. 2022
+								</div>
+							</div>
+
+							<div class="blog-short mt-2" 
+								data-es="Breve tutorial sobre la herramienta de visualización DAISEN utilizada para MGPUSim. Este tutorial viene acompañado con un kernel de referencia."
+								data-en="Brief tutorial about the visualization tool DAISEN used for MGPUSim. This tutorial comes along with a kernel example.">
+							</div>
+
+							<div class="blog-tags mt-1">
+								<span class="tag t-sky">#mgpusim</span> <span class="tag t-sky">#akita</span> <span class="tag t-sky">#daisen</span>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+
+				<!-- Academic / Teaching -->
+				<div class="col-md-8 offset-md-1 mb-5" id="academicContent">
+					<div class="container">
+
+						<!-- Each new year -->
+						<div class="row mt-2 language">
+							<!-- Year -->
+							<h2 class="academic-year-h2">2024</h2>
+
+							<!-- Each subject -->
+							<div class="academic-block mt-4">
+								<!-- Title -->
+								<div class="lucida-console h5 academic-name"> <span data-en="Multi-core and Purpose-built Architectures" data-es="Arquitecturas Multinúcleo y de Propósito Específico (AMPE)"></span></div>
+								<!-- Subtitle -->
+								<div class="academic-rol mt-1"><span data-en="Teaching Assistant" data-es="Profesor de Prácticas"></span></div>
+								<!-- Extra inf -->
+								<div class="academic-year">3.00 ECTS. <span data-en="February 2024 - June 2024" data-es="Febrero 2024 - Junio 2024"></span></div>
+								<!-- Links -->
+								<div class="mt-1"><a href="https://twitter.com/AMPE_UMU" target="_blank" class="link-dark"><i class="fa-brands fa-twitter"></i></a></div>
+							</div>
+						</div>
+
+						<div class="row mt-4 language">
+							<h2 class="academic-year-h2">2023</h2>
+
+							<div class="academic-block">
+								<div class="lucida-console h5 academic-name"> <span data-en="Introduction to Operating Systems" data-es="Introducción a Sistemas Operativos (ISO)"></span></div>
+								<div class="academic-rol mt-1"><span data-en="Teaching Assistant" data-es="Profesor de Prácticas"></span></div>
+								<div class="academic-year">3.00 ECTS. <span data-en="September 2023 - January 2024" data-es="Septiembre 2023 - Enero 2024"></span></div>
+							</div>
+
+							<div class="academic-block mt-4">
+								<div class="lucida-console h5 academic-name"> <span data-en="Multi-core and Purpose-built Architectures" data-es="Arquitecturas Multinúcleo y de Propósito Específico (AMPE)"></span></div>
+								<div class="academic-rol mt-1"><span data-en="Teaching Assistant" data-es="Profesor de Prácticas"></span></div>
+								<div class="academic-year">3.00 ECTS. <span data-en="February 2023 - June 2023" data-es="Febrero 2023 - Junio 2023"></span></div>
+								<div class="mt-1"><a href="https://twitter.com/AMPE_UMU" target="_blank" class="link-dark"><i class="fa-brands fa-twitter"></i></a></div>
+							</div>
+						</div>
+
+						<div class="row mt-4 language">
+							<h2 class="student-h2" data-es="Alumnos" data-en="Students"></h2>
+
+							<div class="student-block">
+								<div class="student-name"> José Ángel Nicolás Ortega </div>
+								<div class="mt-1 h5 lucida-console"><span data-en="Register Bank Modeling on GPUs with MGPUSim" data-es="Modelado del Banco de Registros en GPUs con MGPUSim"></span></div>
+								<div class="student-mark fireworks">9.9 <span data-es="Sobresaliente - M. Honor" data-en="Outstanding - H.M."></span> </div>
+								<div class="mt-2 student-period"> <span data-en="September 2022 - June 2023" data-es="Septiembre 2022 - Junio 2023"></span> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Clases particulares -->
+				<div class="col-md-12 mb-5" id="particularContent">
+					<div class="container language">
+						<h1 class="particular-h1 mb-3" data-es="La calidad siempre es prioritaria." data-en="Quality always goes first."></h1>
+						
+						<h4 class="particular-clickable">🧑 <span class="particular-h4"><span data-es="¿Quién es " data-en="Who's "></span><span class="particular-name">Nicolás Meseguer</span>?</span></h4>
+						<div class="container">
+							<div class="row mb-4 align-middle align-items-center">
+								<div class="col-sm-0 col-md-4 col-lg-3">
+									<div>
+										<img src="assets/img/NicolasMeseguer.webp" alt="Nicolás Meseguer" class="profilepicture-particular w-75 d-block">
+									</div>
+								</div>
+								<div class="col-md-8">
+									👋 ¡Hola a todos! A mis 25 años puedo afirmar rotúndamente que soy un apasionado de la informática y la enseñanza. He estado inmerso en el fascinante mundo de la tecnología desde que era un niño y desde entonces, he recorrido un largo camino académico y profesional.<br><br> Mi viaje comenzó con un Grado Superior en Desarrollo Web, seguido de un Grado en Ingeniería Informática en la UCAM, y luego un Máster en Nuevas Tecnologías en Informática en la Universidad de Murcia.<br><br> Actualmente, estoy trabajando en mi doctorado, mientras tengo el privilegio de dar clases en la Universidad de Murcia.
+								</div>
+							</div>
+							<div>
+								En mi experiencia docente, he encontrado que cada estudiante es único y merece un <span class="underline">enfoque de enseñanza personalizado</span> que se ajuste a sus propias necesidades y ritmo de aprendizaje. Por ello, mi objetivo principal es brindar una enseñanza de calidad y adaptada a cada uno de mis alumnos, con posibilidad de <span class="underline">enseñanza en Inglés y Castellano</span>. Estos son algunos de mis enfoques de enseñanza:
+								<br><br>
+								<ol>
+									<li><b>Apoyo constante</b>: Estoy disponible para resolver dudas o proporcionar ayuda adicional cuando sea necesario. Creo que la comunicación abierta y regular es clave para un aprendizaje efectivo. 📞</li>
+									<li><b>Herramientas innovadoras</b>: Utilizo herramientas de última generación para facilitar el aprendizaje y hacer que incluso los conceptos más complejos sean comprensibles. Uso de tabletas para ilustrar ideas, software colaborativo para trabajar en tiempo real, o proporcionar materiales de estudio personalizados. 💻📚</li>
+									<li><b>Paciencia y comprensión</b>: Entiendo que todos aprendemos a nuestro propio ritmo. Por lo tanto, mi enfoque es siempre paciente y alentador, asegurándome de que cada concepto se comprenda completamente antes de pasar al siguiente. 🤗</li>
+								</ol>
+							</div>
+						</div>
+
+						<h4 class="particular-clickable">💼 <span class="particular-h4" data-es="Experiencia previa" data-en="Previous experience"></span></h4>
+						<div>
+							<p>
+								Siempre he sido un apasionado de la informática. Mi historia con los ordenadores y la programación comenzó desde muy pequeño pero se puso en serio cuando me lancé a estudiar un <span class="underline">Grado Superior</span> de Desarrollo Web. No solo me encantó, sino que obtuve unas notas estupendas. Esto me abrió las puertas a una beca Erasmus+ para hacer prácticas en el extranjero. ¡Y sí, resulta que además de hablar informática, también hablo inglés bastante bien! 😂
+								<br><br>
+
+								Después de aquella experiencia, me sumergí en el <span class="underline">Grado en Ingeniería Informática</span> en la Universidad Católica San Antonio de Murcia (UCAM). Fueron años intensos y fascinantes en los que me llevé la sorpresa de mi vida al terminar con una media de 9.3 y, para mi asombro, ¡recibir el premio al mejor expediente de mi promoción! 🤯 (+26 matrículas de honor).
+								<br><br>
+								
+								Pero mi amor por la informática y la curiosidad por seguir aprendiendo no conocían límites, así que me lancé a por un <span class="underline">Máster en Nuevas Tecnologías en Informática</span> en la Universidad de Murcia. Durante este tiempo, tuve la suerte de trabajar codo con codo con el Barcelona Supercomputing Center (BSC) en mi Trabajo de Fin de Máster, que acabó con una calificación de 9.9. Durante esos años, también tuve la oportunidad de compartir mi pasión por la informática a través de dos artículos que publiqué en congresos nacionales.
+								<br><br>
+								
+								Hoy, gracias a una beca de la prestigiosa Fundación Séneca (¡y estoy muy orgulloso de ser uno de los cuatro seleccionados en toda la región!), estoy metido de lleno en mis <span class="underline">estudios de doctorado</span>. Y para redondear esta aventura, también tengo la increíble oportunidad de dar clases en la Universidad de Murcia, donde este año soy el profesor encargado de las prácticas de la asignatura Arquitecturas Multinúcleo y de Propósito Específico (AMPE). ¡Así que aquí estoy, listo para compartir todo lo que he aprendido en mi camino!
+							</p>
+						</div>
+
+						<h4 class="particular-clickable">🎓 <span class="particular-h4" data-es="Especializaciones y cursos" data-en="Specializations and courses"></span></h4>
+						<div>
+							<p>
+								Con mi amplia formación y experiencia, puedo ayudar a estudiantes de todas las edades y niveles, desde la primaria hasta la universidad. Aquí tienes una idea de las áreas en las que me especializo:
+
+								<ol>
+									<li><b>Informática básica</b>: Desde cómo utilizar un ordenador, navegación por internet, hasta seguridad informática básica, puedo ayudar a los más jóvenes a familiarizarse y desenvolverse en el mundo digital. 🖥️</li>
+									<li><b>Programación y desarrollo web</b>: ¿Estás interesado en aprender a programar o a crear tu propia página web? Puedo enseñar desde los fundamentos de la programación hasta los lenguajes más avanzados, y orientar en el diseño y desarrollo de sitios web. 💻🌐</li>
+									<li><b>Asignaturas universitarias de informática</b>: Si estás cursando un Grado o Máster en Informática y necesitas ayuda extra, puedo ofrecer soporte en asignaturas de computación, arquitectura, sistemas operativos, entre otras. 🎓🔬</li>
+									<li><b>Inglés Técnico</b>: Gracias a mi experiencia estudiando y trabajando en el extranjero, puedo ayudarte a mejorar tu inglés técnico y académico, una habilidad esencial en el mundo de la informática y la tecnología. 🌍🗣️</li>
+								</ol>
+
+								Mi enfoque es siempre adaptar las lecciones a las necesidades específicas de cada estudiante. Así que <span class="underline">si tienes una solicitud especial, no dudes en comunicarte conmigo</span>, estaré encantado de atender tus necesidades o las de tu hijo. 🤝
+							</p>
+						</div>
+
+						<h4 class="particular-clickable">📚 <span class="particular-h4" data-es="Material didáctico" data-en="Educational materials"></span></h4>
+						<div>
+							<p>
+								Una de las cosas que realmente diferencia mis clases de las de otras academias o profesores particulares es el enfoque práctico y colaborativo que utilizo. Para asegurarme de que mis alumnos realmente comprendan y apliquen lo que aprenden, hago uso de una variedad de herramientas didácticas y tecnológicas:
+								
+								<ol>
+									<li><b>Tableta e iPad</b>: Utilizo mi tableta y iPad para dibujar y explicar conceptos en tiempo real durante las clases. Esto significa que tendrás una explicación visual clara de lo que estoy enseñando, lo que facilitará la comprensión y retención. 🎨📱</li>
+									<li><b>Programas de dibujo</b>: Domino una serie de programas de dibujo que me permiten ilustrar ideas y conceptos de una manera fácil de entender. Así, los alumnos pueden visualizar exactamente lo que estamos discutiendo y cómo se aplica. 🖌️💡</li>
+									<li><b>Herramientas colaborativas</b>: Utilizo herramientas como Miro y Draw.io, que permiten a los alumnos participar y colaborar en tiempo real. Esto significa que no solo verán lo que hago, sino que también tendrán la oportunidad de participar proactivamente y aprender haciendo. 🔄🎲</li>
+								</ol>
+
+								El uso de estas herramientas modernas y colaborativas permite a los alumnos experimentar un aprendizaje interactivo y atractivo que no solo los ayudará a entender los conceptos, sino que también les dará las habilidades prácticas que necesitarán en el mundo real.
+								<br><br>
+								¡El objetivo siempre es proporcionar una enseñanza de la más alta calidad y hacer del aprendizaje una experiencia agradable y valiosa! 🌟🚀
+							</p>
+						</div>
+
+						<h4 class="particular-clickable">💰 <span class="particular-h4" data-es="Precio hora" data-en="Price per hour"></span></h4>
+						<div>
+							<p>
+								Entiendo que la calidad de la educación es una inversión importante para el futuro. Mi enfoque siempre ha sido proporcionar un servicio excepcional que supere las expectativas y justifique cada euro invertido.
+								<br><br>
+
+								El precio establecido es de <b>20 euros/hora</b>. Este precio refleja la calidad de la enseñanza que ofrezco, incluyendo mi amplia experiencia, mi enfoque personalizado y la utilización de herramientas de aprendizaje interactivas y modernas.
+								<br><br>
+
+								Para mayor comodidad, acepto varios métodos de pago, incluyendo <span class="underline">Bizum</span>, <span class="underline">Transferencia Bancaria</span> y <span class="underline">PayPal</span>. Quiero hacer que el proceso sea lo más sencillo y sin complicaciones posible para ti.
+								<br><br>
+
+								Al final, no solo estás pagando por un tutor, sino por una experiencia educativa de alta calidad, una que te brindará de las herramientas y la confianza que necesita para tener éxito en tu carrera académica y/o profesional. 🎯💎
+							</p>
+						</div>
+
+						<h4 class="particular-clickable">❓ <span class="particular-h4" data-es="Preguntas Frecuentes" data-en="FAQ"></span></h4>
+						<div>
+							<p>
+								<ol>
+									<li><b>¿Se puede adaptar al horario de mi hijo?</b>: Sé lo ocupadas que pueden llegar a ser las vidas de los estudiantes, por lo que ofrezco un horario flexible y adaptable a tus necesidades. ⏰🔄</li>
+									<li><b>Si una clase se cancela, ¿qué pasa?</b>: Entiendo que los imprevistos pueden surgir. Si necesitas cancelar una clase, buscaremos juntos otro horario que se acomode. La meta siempre es no perder la oportunidad de aprender y crecer. 🔄📅</li>
+									<li><b>¿Qué métodos de pago aceptas?</b>: Para hacer que el proceso sea lo más conveniente posible, acepto varios métodos de pago, incluyendo Bizum, transferencia bancaria y PayPal. 💰💳</li>
+									<li><b>¿Qué garantiza que la enseñanza será de alta calidad?</b>: Mi experiencia académica y profesional hablan por sí mismas. Además, me dedico a usar herramientas y técnicas de enseñanza modernas y efectivas para asegurar el mejor aprendizaje posible. 🎯🌟</li>
+								</ol>
+
+								Si tienes alguna otra pregunta que no haya sido respondida aquí, por favor no dudes en ponerte en contacto conmigo. Estoy aquí para ayudarte y asegurarme de que recibas la mejor educación posible. 🤝💡
+							</p>
+						</div>
+
+						<h4 class="particular-clickable">📞 <span class="particular-h4" data-es="Contacto" data-en="Contact"></span></h4>
+						<div>
+							<p>
+								¡Si tienes alguna pregunta, necesitas más información, o te gustaría programar una clase inicial, no dudes en ponerte en contacto conmigo!
+								<br><br>
+								
+								Puedes enviarme un mensaje a mi dirección de correo electrónico de trabajo: 📧 <a href="mailto:n.mesegueriborra@um.es" class="link-dark">n.mesegueriborra@um.es</a>.
+								<br><br>
+
+								Si prefieres usar WhatsApp, también puedes enviarme un mensaje al siguiente número: <span class="underline">+34 ??? ?? ?? ??</span>. Por favor, ten en cuenta que este número sólo está disponible para mensajes de WhatsApp. 📱
+							</p>
+						</div>
+
+					</div>
+				</div>
+
+				<!-- Conferences -->
+				<div class="col-md-8 offset-md-1 mb-5" id="conferencesContent">
+					<div class="container language">
+						⚠️ 
+						<span 
+							data-es="Estamos trabajando en ello..."
+							data-en="Work in progress...">
+						</span>
+						⏱️
+						</div>
+				</div>
+
+				<!-- Experience -->
+				<div class="col-md-8 offset-md-1" id="experienceContent">
+					<div class="container language">
+						⚠️ 
+						<span 
+							data-es="Estamos trabajando en ello..."
+							data-en="Work in progress...">
+						</span>
+						⏱️
+						</div>
+				</div>
+
+				<!-- Projects -->
+				<div class="col-md-8 offset-md-1" id="projectsContent">
+					<div class="container language">
+						⚠️ 
+						<span 
+							data-es="Estamos trabajando en ello..."
+							data-en="Work in progress...">
+						</span>
+						⏱️
+						</div>
+				</div>
+
+				<!-- Template -->
+				<!--
+				<div class="col-md-8 offset-md-1" id="nameContent">
+					<div class="container language">
+					⚠️ 
+					<span 
+						data-es="Estamos trabajando en ello..."
+						data-en="Work in progress...">
+					</span>
+					⏱️
+					</div>
+				</div>
+				-->
+
+
+			</div>
+		</div>
+
+
+		<!-- Scripts -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
+
+</html>
