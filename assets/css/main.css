@@ -1,4 +1,4 @@
-/* MOBILE's FIRST - Custom properties */
+f/* MOBILE's FIRST - Custom properties */
 /* This classes will be then modified for bigger screens */
 
 #mowatave {
@@ -30,6 +30,13 @@ a {
 /* GENERAL CSS */
 #main-content {
 	margin-top: 20px;
+}
+
+/* Add from Minseog*/
+.papertitle {
+    color: blue; /* Set the color of the title */
+    font-family: Arial, sans-serif; /* Set the font family */
+    font-size: 24px; /* Set the font size */
 }
 
 li > .active {
