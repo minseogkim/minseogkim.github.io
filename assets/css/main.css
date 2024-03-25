@@ -38,13 +38,13 @@ a {
 /* Main */
 li > .active {
 	font-weight: 500;
-    	color: #989898; /* MS: Set the color */
+    	color: #707070; /* MS: Set the color */
 	
 }
 
 .trnsf-thin {
-	font-weight: 450;
-	color: #989898; /* MS: Set the color */
+	font-weight: 350;
+	color: #707070; /* MS: Set the color */
 }
 
 .trnsf-bold {
