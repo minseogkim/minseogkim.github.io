@@ -32,14 +32,20 @@ a {
 	margin-top: 20px;
 }
 
-/* Add from Minseog*/
+/* Add by Minseog */
 
+
+/* Main */
 li > .active {
 	font-weight: 500;
 }
 
 .trnsf-thin {
 	font-weight: 300;
+}
+
+.trnsf-bold {
+	font-style: bold;
 }
 
 .trnsf-italic {
