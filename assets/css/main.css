@@ -37,14 +37,14 @@ a {
 
 /* Main */
 li > .active {
-	font-weight: 550;
-    	color: #A8A8A8; /* MS: Set the color */
+	font-weight: 500;
+    	color: #989898; /* MS: Set the color */
 	
 }
 
 .trnsf-thin {
-	font-weight: 500;
-	color: #A8A8A8; /* MS: Set the color */
+	font-weight: 450;
+	color: #989898; /* MS: Set the color */
 }
 
 .trnsf-bold {
