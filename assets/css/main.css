@@ -37,11 +37,11 @@ a {
 
 /* Main */
 li > .active {
-	font-weight: 500;
+	font-weight: 700;
 }
 
 .trnsf-thin {
-	font-weight: 480;
+	font-weight: 600;
 }
 
 .trnsf-bold {
