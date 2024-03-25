@@ -2,16 +2,7 @@
     color: #AA0A0A; /* Set the color of the title */
     font-family: Verdana; /* Set the font family */
     /* font-family: Verdana, sans-serif; */
-    font-size: 3rem; /* Set the font size */
+    font-size: 12px; /* Set the font size */
     font-weight:bold; /* Set the font weight*/
 }
     
-    <!--
-    .papertitle {
-        color: crimson; /* Set the color of the title */
-        font-family: Verdana; /* Set the font family */
-        /* font-family: Verdana, sans-serif; */
-        font-size: 27px; /* Set the font size */
-        font-weight:bold; /* Set the font weight*/
-    }
-    -->
