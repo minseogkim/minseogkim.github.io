@@ -1,6 +1,6 @@
 .papertitle {
-    color: crimson; /* Set the color of the title */
-    font-family: #A00000; /* Set the font family */
+    color: #A00000; /* Set the color of the title */
+    font-family: Verdana; /* Set the font family */
     /* font-family: Verdana, sans-serif; */
     font-size: 15px; /* Set the font size */
     font-weight:bold; /* Set the font weight*/
