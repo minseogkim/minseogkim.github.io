@@ -47,6 +47,11 @@ li > .active {
 	color: #707070; /* MS: Set the color */
 }
 
+.trnsf-thin2 {
+	font-weight: 400;
+	color: #5c5b5b; /* MS: Set the color */
+}
+
 .trnsf-thincolor {
 	font-weight: 420;
 	color: #AA0A0A; /* MS: Set the color */
