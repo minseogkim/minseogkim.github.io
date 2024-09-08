@@ -24,15 +24,17 @@ h1, h2, h3, h4, b {
 }
 
 .nav-link:hover{
-	color: rgba(255, 255, 255, 0.7) !important;
+	color: rgba(255, 255, 255, 0.7) !important;	
 }
 
 .link-dark {
 	color: var(--h-color) !important;
+        text-decoration: none; /* MS: Removes underline by default */	
 }
 
 .link-dark:hover, .link-dark:focus {
 	color: #DBDBDB !important;
+    	text-decoration: underline; /* MS: Adds underline on hover */
 }
 
 .navbar-toggler-icon {
