@@ -32,7 +32,7 @@ a {
 	margin-top: 20px;
 }
 
-/* Add by Minseog */
+/* Added by Minseog */
 
 
 /* Main */
@@ -46,6 +46,12 @@ li > .active {
 	font-weight: 350;
 	color: #707070; /* MS: Set the color */
 }
+
+.trnsf-thincolor {
+	font-weight: 350;
+	color: #AA0A0A; /* MS: Set the color */
+}
+
 
 .trnsf-bold {
 	font-style: bold;
