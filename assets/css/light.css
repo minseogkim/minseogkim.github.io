@@ -31,10 +31,14 @@ h1, h2, h3, h4, b {
 
 .link-dark {
 	color: #212529 !important;
+        text-decoration: none; /* MS: Removes underline by default */
+	
 }
 
 .link-dark:hover {
 	color: #1c1e20 !important;
+	text-decoration: underline; /* MS: Adds underline on hover */
+
 }
 
 /* OPTION BUTTON */
