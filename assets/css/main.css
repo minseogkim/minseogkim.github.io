@@ -73,6 +73,7 @@ li > .active {
 
 .lucida-console {
 	font-family: 'Lucida Console', monospace;
+	color: #AA0A0A; /* MS: Set the color */
 }
 
 /* NICOLAS MESEGUER CONTACT INFO - Related*/
